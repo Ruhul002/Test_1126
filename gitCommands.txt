@@ -1,0 +1,94 @@
+
+
+Lab Instructions for installing Node JS in Centos 7
+
+
+#sudo yum install nodejs
+#sudo mkdir -p /tfl/myapp
+#cd /tfl/myapp
+
+var http = require('http');
+
+Lab Instructions for  using git  in CentOS
+
+#sudo yum install git
+#sudo git --version
+#git --help
+#git config --global user.name "RaviTambade"
+#git config --global user.email ravi.tambade@transflower.in
+
+List down git configuration for your machine
+
+# git config --list
+
+Download standard node js application from Ravi Sir's Public code Repository to test in node js of CentOS instance
+
+#git clone https://github.com/RaviTambade/dbdanode.git
+
+
+cd dbdanode
+cd nodeapp
+
+npm install
+noder server.js
+
+___________________________________________________________________________________________________________________________
+
+
+Instructions for  Clonning git repository and commit changes back to Centralized  Code Repository
+
+#git clone https://github.com/RaviTambade/iacsd.git
+
+#cd iacsd
+#cat cloudcomputing.txt
+
+To Edit text file using VI Editor in CentOS use following commands
+
+1.Type the vi command followed by the name of the file to open the file in Vi:
+
+#vi cloudcomputing.txt
+
+
+2. Use the keyboard to navigate through the file. 
+   Press "j" to move the cursor down,
+         "k" to move the cursor up, 
+        "h" to move the cursor left and 
+        "l" to move the cursor right.
+
+3. Press the "i" key to insert text into the file.
+
+4. Press the "Esc" key to return to normal mode to continue navigating through the file.
+
+7. Type ":wq" on the keyboard to save and close the file.
+
+................................................................................................................
+
+
+Now use git commands to  add files  for sending for Code Repository 
+
+#git add cloudcomputing.txt
+#git status
+
+#git commit -m "first commit" cloudcomputing.txt
+#git push -u origin master
+
+/////
+______________________________________________________________________________________________________________________
+
+
+Create ECommerceSolution on your machine
+Go to ECommerce
+
+
+echo "# ECommerceSolution" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/RaviTambade/ECommerceSolution.git
+git push -u origin master
+
+
+
+
+
+
